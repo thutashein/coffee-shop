@@ -994,51 +994,6 @@ header{
 
 
 
-/* For About Section Ani */
-
-
-.about-ani-one.active{
-    animation:aboutani_one 1.5s linear backwards;
-}
-
-@keyframes aboutani_one {
-    0%{
-        transform: translate(-100%);
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        transform: translate(0);
-        opacity: 1;
-    }
-}
-
-.about-ani-two.active{
-    animation:aboutani_two 1.5s linear backwards;
-}
-
-@keyframes aboutani_two {
-    0%{
-        transform: translate(100%);
-        opacity: 0;
-    }
-
-    50%{
-        opacity: 0.5;
-    }
-
-    100%{
-        transform: translate(0);
-        opacity: 1;
-    }
-}
-
-
-
 
 
 
